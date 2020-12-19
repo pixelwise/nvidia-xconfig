@@ -1,6 +1,6 @@
 Name:           nvidia-xconfig
 Epoch:          3
-Version:        450.66
+Version:        450.80.02
 Release:        1%{?dist}
 Summary:        NVIDIA X configuration file editor
 
@@ -49,6 +49,9 @@ mkdir -p %{buildroot}%{_sbindir}
 
 
 %changelog
+* Sat Dec 19 2020 Ling Wang <lingwangneuraleng@gmail.com> - 3:450.80.02-1
+- bump driver version to 450.80.02
+
 * Wed Aug 19 2020 Leigh Scott <leigh123linux@gmail.com> - 3:450.66-1
 - Update to 450.66 release
 
